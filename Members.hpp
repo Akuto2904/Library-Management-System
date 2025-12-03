@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 
-class Members() {
+class Members {
     //Attributes
     private:
     std::string memberID;

@@ -1,11 +1,14 @@
-#LIBRARY_HPP
+#ifndef LIBRARY_HPP
 #define LIBRARY_HPP
+
+#include "Members.hpp"
+#include "Book.hpp"
 
 #include <string>
 #include <map>
 #include <vector>
-#include "Members.hpp"
-#include "Book.hpp"
+#include <memory>
+
 
 class Library {
     //Attributes
@@ -26,7 +29,8 @@ class Library {
     //Book Management
     void addBook(const Book& book);
     void removeBook(const std::string& bookID);
-    Book* searchBook(const std::string& query) const;
+    void searchBooks(const std::string& query) const;
+    void displayAllBooks() const;
     void displayAvailableBooks() const;
 
     //Member Management
