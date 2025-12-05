@@ -35,4 +35,4 @@ class Book {
     void setAvailability(bool availability);
 };
 
-#endif // BOOK_HPP
+#endif //BOOK_HPP

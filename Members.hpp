@@ -14,10 +14,12 @@ class Members {
     public:
     //Constructor
     Members(const std::string& memberID, const std::string& name, const std::vector<std::string>& borrowed);
+    
     //Getters
     std::string getMemberID() const;
     std::string getName() const;
     std::vector<std::string> getBorrowed() const;
+
     //Setters
     void setMemberID(const std::string& memberID);
     void setName(const std::string& name);
@@ -28,4 +30,4 @@ class Members {
     void returnBook(const std::string& bookID);
 };
 
-#endif // MEMBERS_HPP
+#endif //MEMBERS_HPP

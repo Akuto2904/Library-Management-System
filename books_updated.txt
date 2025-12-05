@@ -4,3 +4,4 @@ B104|"Think and Grow Rich"|"Napoleon Hill"|"Motivational, Finance"|238|1
 B105|"The Origin of Species"|"Charles Darwin"|"Biology"|502|1
 B106|"Think and Grow Rich"|"Napoleon Hill"|"Motivational, Finance"|238|1
 B107|"The Art of Computer Programming"|"Donald E. Knuth"|"Algorithms, programming"|672|1
+B200|The Power of Positive Thinking|Norman Vincent Peale|Motivational, spiritual|240|1
